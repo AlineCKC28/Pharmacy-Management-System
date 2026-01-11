@@ -3,10 +3,10 @@
 High school final project (2023). Developed as a collaborative team project, this web application manages pharmacy operations including inventory, sales, and automated processes, with secure handling of data and efficient functionality.
 
 ## Author
-[Nome da estudante] – responsible for front-end and back-end development, as well as database management.
+ALINE KAQUEMA CÂMIA CHIENGO – responsible for front-end and back-end development, as well as database management.
 
-## Team
-[Nome dos colegas, se houver]
+## Team Member
+EMANUEL NURIO DE OLIVEIRA CALUNGA
 
 ## Institution
 INSTITUTO MÉDIO POLITÉCNICO SMARTBITS
@@ -32,4 +32,4 @@ INSTITUTO MÉDIO POLITÉCNICO SMARTBITS
 - Problem-solving and practical programming skills
 
 ## Link to Project Report
-[PDF Report](docs/EDACAMBANGO_Pharmacy_Project_Report.pdf)
+https://github.com/AlineCKC28/Pharmacy-Management-System.git
