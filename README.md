@@ -31,5 +31,3 @@ INSTITUTO MÉDIO POLITÉCNICO SMARTBITS
 - System integration and automation
 - Problem-solving and practical programming skills
 
-## Link to Project Report
-https://github.com/AlineCKC28/Pharmacy-Management-System.git
