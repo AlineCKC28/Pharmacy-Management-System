@@ -1,7 +1,35 @@
-# Pharmacy Management System
+# EDACAMBANGO Pharmacy Management System
 
-High school final project (2023). Developed collaboratively as a team project.
+High school final project (2023). Developed as a collaborative team project, this web application manages pharmacy operations including inventory, sales, and automated processes, with secure handling of data and efficient functionality.
 
-Authors: ALINE KAQUEMA CÂMIA CHIENGO, EMANUEL NURIO DE OLIVEIRA CALUNGA 
-Institution: INSTITUTO MÉDIO POLITÉCNICO SMARTBITS
-Year:2023
+## Author
+[Nome da estudante] – responsible for front-end and back-end development, as well as database management.
+
+## Team
+[Nome dos colegas, se houver]
+
+## Institution
+INSTITUTO MÉDIO POLITÉCNICO SMARTBITS
+
+## Year
+2023
+
+## Project Structure
+- `index` – main entry point of the application
+- `Controller/` – handles business logic and system operations
+- `View/` – front-end interface for users
+- `Model/` – database and data structure management
+- `CSS/` – styling and layout of the application
+- `JS/` – client-side functionality and interactivity
+- `img/` – images and assets used in the application
+- `farmacia-cero-new` – database used by the system
+- `docs/` – project report PDF and additional documentation
+
+## Key Skills Demonstrated
+- Front-end and back-end development
+- Database design and management
+- System integration and automation
+- Problem-solving and practical programming skills
+
+## Link to Project Report
+[PDF Report](docs/EDACAMBANGO_Pharmacy_Project_Report.pdf)
