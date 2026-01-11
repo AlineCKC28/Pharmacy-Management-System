@@ -1,7 +1,7 @@
 # Pharmacy Management System
 
-High school final project (2023). Developed a Pharmacy Management System including database management, automated processes, and secure handling of pharmaceutical data. Demonstrates practical programming skills, problem-solving, and system design.
+High school final project (2023). Developed collaboratively as a team project.
 
-Author:ALINE KAQUEMA CÂMIA CHIENGO
-Institution:INSTITUTO MÉDIO POLITÉCNICO SMARTBITS
+Authors: ALINE KAQUEMA CÂMIA CHIENGO, EMANUEL NURIO DE OLIVEIRA CALUNGA 
+Institution: INSTITUTO MÉDIO POLITÉCNICO SMARTBITS
 Year:2023
