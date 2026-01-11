@@ -1,0 +1,153 @@
+<!-- Google Font: Source Sans Pro -->
+<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">-->
+<link rel="stylesheet" href="../css/datatables.css">
+<link rel="stylesheet" href="../css/compra.css">
+<link rel="stylesheet" href="../css/main.css">
+<!-- select2 -->
+<link rel="stylesheet" href="../css/select2.css">
+<!-- sweetalert2 -->
+<link rel="stylesheet" href="../css/sweetalert2.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../css/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../css/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      
+      <li class="nav-item dropdown" id="cat-carrinho" style="display:none;">
+        <img src="../img/carrito.png" class=" imagen-carrinho nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+         <span id="contador" class="contador badge badge-danger"></span>
+      </img>
+        <div class="dropdown-menu">
+          <table class="carro table table-hover text-nowrap p-0"> 
+            <thead class="table-success">
+                <tr>
+                  <th>Código</th>
+                  <th>Nome</th>
+                  <th>Concentração</th>
+                  <th>Adicional</th>
+                  <th>Preco</th>
+                  <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody id="lista">
+
+            </tbody>
+          </table>
+          <a href="#" id="processar-pedido"class="btn btn-danger btn-block">Processar compra</a>
+          <a href="#" class="btn btn-primary btn-block" id="esvaziar-carrinho">Esvaziar carrinho</a>
+        </div>
+      </li>
+
+    </ul>
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+       <a href="../controlador/Logout.php ">Encerrar Sessão</a>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="../vista/adm_catalogo.php" class="brand-link">
+      <img src="../img/logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light"> Farmácia</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img id="avatar4"src="../img/avatar.png" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">
+          <?php
+            echo $_SESSION['nome_us'];
+          ?>
+          </a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+               <li class="nav-header">Usuário</li>
+          <li class="nav-item">
+            <a href="../vista/editar_dados_pessoais.php" class="nav-link">
+              <i class="nav-icon fas fa-user-cog"></i>
+              <p>
+                Dados pessoais
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="adm_usuario.php" class="nav-link">
+              <i class="nav-icon fas fa-users"></i>
+              <p>
+                Gestão usuario
+              </p>
+            </a>
+          </li> 
+          <li class="nav-header">Vendas</li>
+          <li class="nav-item">
+            <a href="adm_Venda.php" class="nav-link"> 
+              <i class="nav-icon fas fa-notes-medical"></i>
+              <p>
+                Listar Vendas
+              </p>
+            </a>
+          </li> 
+          <li class="nav-header">Armazem</li>
+          <li class="nav-item">
+            <a href="adm_produto.php" class="nav-link">
+              <i class="nav-icon fas fa-pills"></i>
+              <p>
+                Gestão Produto
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="adm_atributo.php" class="nav-link">
+              <i class="nav-icon fas fa-vials"></i>
+              <p>
+                Gestão atributo
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="adm_lote.php" class="nav-link">
+              <i class="nav-icon fas fa-cubes"></i>
+              <p>
+                Gestão lote
+              </p>
+            </a>
+          </li>
+          <li class="nav-header">Compras</li>
+          <li class="nav-item">
+            <a href="adm_fornecedor.php" class="nav-link">
+              <i class="nav-icon fas fa-truck"></i>
+              <p>
+                Gestão fornecedor
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
